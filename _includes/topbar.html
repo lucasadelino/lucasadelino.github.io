@@ -31,7 +31,7 @@
               <span>{{ page.title }}</span>
             {% endif %}
   
-          {% elsif page.layout == 'category' or page.layout == 'tag' %}
+          {% elsif page.layout == 'page' or page.layout == 'post' or page.layout == 'tag' %}
             <span>
               <a href="{{ item | relative_url }}">
                 {{ site.data.locales[lang].tabs[item] | default: page.title }}
@@ -54,7 +54,7 @@
           {%- capture tab_key -%}{{ page.url | split: '/' }}{%- endcapture -%}
           {{- site.data.locales[lang].tabs[tab_key] | default: page.title -}}
         {% else %}
-          {{- site.data.locales[lang].layout[page.layout] | default: page.layout | capitalize -}}
+          {{- page.title | default: page.layout | capitalize -}}
         {% endif %}
       </div>
   
