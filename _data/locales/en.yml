@@ -11,9 +11,9 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  empty: Empty
+  projects: Projects
+  experience: Experience
   about: About
-  newpage: New Page
 
 # the text displayed in the search bar & search results
 search:
