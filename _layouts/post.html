@@ -1,0 +1,80 @@
+---
+layout: default
+# A light-weight post layout
+---
+
+{% include lang.html %}
+
+<div class="row">
+
+  <div id="post-wrapper" class="col-12 col-lg-11 col-xl-8">
+
+    <div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
+
+      <h1 data-toc-skip>{{ page.title }}</h1>
+
+      <div class="post-meta text-muted d-flex flex-column">
+        
+        <div>
+
+          <!-- read time -->
+          {% include read-time.html content=content prompt=true %}
+
+        </div>
+
+      </div> <!-- .post-meta -->
+
+      <div class="post-content">
+
+        {% if page.image.src %}
+          <img src="{{ page.image.src }}"
+            class="preview-img"
+            alt="{{ page.image.alt | default: "Preview Image" }}"
+            {% if page.image.width %}width="{{ page.image.width }}"{% endif %}
+            {% if page.image.height %}height="{{ page.image.height }}"{% endif %}>
+        {% endif %}
+
+        {{ content }}
+
+      </div>
+
+      <div class="post-tail-wrapper text-muted">
+
+
+        <div class="post-tail-bottom
+          d-flex justify-content-between align-items-center mt-3 pt-5 pb-2">
+          <div class="license-wrapper">
+          {% if site.data.locales[lang].copyright.license.template %}
+            {% capture _replacement %}
+            <a href="{{ site.data.locales[lang].copyright.license.link }}">
+              {{ site.data.locales[lang].copyright.license.name }}
+            </a>
+            {% endcapture %}
+            {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
+          {% endif %}
+          </div>
+
+          {% include post-sharing.html %}
+
+        </div><!-- .post-tail-bottom -->
+
+      </div><!-- div.post-tail -->
+
+    </div> <!-- .post -->
+
+
+  </div> <!-- #post-wrapper -->
+
+  {% assign enable_toc = false %}
+
+  {% if page.toc %}
+    {% if content contains '<h2' or content contains '<h3' %}
+      {% assign enable_toc = true %}
+    {% endif %}
+  {% endif %}
+
+  {% include panel.html toc=enable_toc %}
+
+</div> <!-- .row -->
+
+
