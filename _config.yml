@@ -18,9 +18,9 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Portfolio                          # the main title
+title: Lucas Adelino                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Educator; prospective PhD student   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -115,6 +115,17 @@ collections:
 defaults:
   -
     scope:
+      path: ''
+    values:
+      dynamic_title: true   
+  -
+    scope:
+      path: 'projects'
+    values:
+      layout: post
+      toc: true   
+  -
+    scope:
       path: ''          # An empty string here means all files in the project
       type: posts
     values:
@@ -137,6 +148,7 @@ defaults:
       layout: page
       permalink: /:title/
       dynamic_title: true    # Hide title in mobile screens.
+
 
 sass:
   style: compressed
