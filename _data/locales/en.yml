@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  projects: Projects
+  pprojects: Pprojects
   experience: Experience
   about: About
 
