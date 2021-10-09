@@ -1,3 +1,8 @@
+---
+title: New website
+layout: post
+---
+
 ## What it is
 
 ## The setup
