@@ -1,6 +1,7 @@
 ---
 title: Chapter 3 - N-gram Sentence Generator
 layout: post
+math: true
 ---
 ## What it is
 
@@ -10,7 +11,7 @@ A [bot](https://twitter.com/assis_bot) that uses an n-gram language model traine
 
 [Chapter 3 of Jurafsky and Martin](https://web.stanford.edu/~jurafsky/slp3/3.pdf) introduces the reader to n-gram language models. The exercises at the end of the chapter prompt the reader to write a program to compute unsmoothed unigrams and bigrams, and to add an option in the program to generate random sentences and to compute the perplexity of a test set. Contrary to the [previous chapter]({% link projects/chapter2.md %}), this chapter does not provide the algorithm for implementing n-gram models, though it does provide formulas for calculating n-gram probabilities, which meant I would have to come up with the algorithm design myself. I also thought it would be nice to try to implement computations for any *n*-gram, not just unigrams and bigrams. Finally, I was particularly inspired by the following example, which the authors used to show how higher order n-grams perform better (in terms of modeling the corpus on which it was trained):
 
-![higherngrams.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41cef9d6-3636-4c33-acda-b7f23646f3b8/higherngrams.png)
+![higherngrams.PNG](/assets/higherngrams.PNG)
 
 [*Jurafsky & Martin (2021), p. 11*](https://web.stanford.edu/~jurafsky/slp3/3.pdf#figure.3.4)
 
@@ -61,21 +62,16 @@ Now that I knew exactly what my tokenizer would return (a list of lists), I coul
 
 I started by laying down all the steps required to implement the n-gram algorithm. For a given list (of lists) of tokens, the program would have to:
 
-1. Add sentence start \<s> and end </s> markers to each list of characters
+1. Add sentence start ```<s>``` and end ```</s>``` markers to each list of characters
 2. Count the frequency of n-grams
 3. Count the frequency of (n-1)-grams
 4. Use steps 2. and 3. above to calculate n-gram probabilities for all n-grams in the list.
 
 Let's look at how to approach each of these steps.
 
-**1 - Add sentence start \<s> and end </s> markers**
+#### 1 - Add sentence start \<s> and end </s> markers
 
-This step was relatively straightforward. For the probability distribution to work, we need to add n - 1 sentence start and end markers to our sentences, so for calculating trigrams, we would have:
-
-> \<s> \<s> an example sentence </s> </s>
-> 
-
-and so on. We can write this algorithm as such:
+This step was relatively straightforward. For the probability distribution to work, we need to add $n - 1$ sentence start and end markers to our sentences, so for calculating trigrams, we would have: ```<s> <s> an example sentence </s> </s>```. We can write this algorithm as such:
 
 ```python
 from copy import deepcopy
@@ -91,6 +87,97 @@ def add_markers(n, token_list):
 
 Our list of tokens passed as argument (token_list) is deep copied here to avoid changing it directly, since lists are mutable data types in Python.
 
-**2 - Count the frequency of n-grams**
+#### 2 - Count the frequency of n-grams
 
-The idea here is also simple, but the implementation has some caveats. First, let's create a dictionary to contain our n-grams and their frequency counts. Now, we'll look at each n-gram in our lists of tokens. We'll then add this n-gram to our dictionary if it isn't already there, or increase it's frequency count by 1 if it already is (we can use Python's setdefault() dictionary method to accomplish both of these things)
+The idea here is also simple: first, let's create a dictionary to contain our n-grams and their frequency counts. Now, we'll look at each n-gram in our lists of tokens. We'll then add this n-gram to our dictionary if it isn't already there (using Python's ```setdefault()``` dictionary method) and increase it's frequency count by 1.
+
+But there's a small hitch: we want this to work for *any* $$n$$, which means we have to first form our n-grams, using whatever $$n$$ the user gave us. I knew I'd have to iterate over a list of tokens, but how would I set the parameters so that it worked for any $$n$$? Inspired by [this video](https://youtu.be/XYi2-LPrwm4?t=266) (which I came across while studying the [minimum edit distance algorithm]({% link projects/chapter2.md %}), my approach was to use a pointer (which we'll call $$p$$) to mark where we are in our list of tokens. We can use it to iterate over the preceding words and join them together to form an n-gram.
+
+To figure out the starting values for the pointers, I drew two cases, one for a trigram and another for a 4-gram. In the tables below, there are two pointers, $$i$$ and $$p$$. Let's look at the trigram first $(n = 3)$. In our first iteration, we would have:
+
+<div align="center">
+<table>
+    <thead>
+        <tr>
+            <th>&lt;s&gt;</th>
+            <th>&lt;s&gt;</th>
+            <th>she</th>
+            <th>set</th>
+            <th>out</th>
+            <th>&lt;/s&gt;</th>
+            <th>&lt;/s&gt;</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>p</td>
+            <td></td>
+            <td>i</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+This would form the trigram ```<s> <s> she```. Now, for our 4-gram $(n = 4)$, in our first iteration would have:
+
+<div align="center">
+<table>
+    <thead>
+        <tr>
+            <th>&lt;s&gt;</th>
+            <th>&lt;s&gt;</th>
+            <th>&lt;s&gt;</th>
+            <th>she</th>
+            <th>set</th>
+            <th>out</th>
+            <th>&lt;/s&gt;</th>
+            <th>&lt;/s&gt;</th>
+            <th>&lt;/s&gt;</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>p</td>
+            <td></td>
+            <td></td>
+            <td>i</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+This would form the 4-gram ```<s> <s> <s> she```.
+
+Generalizing from the above, we can see that:
+
+- $$i$$ starts at $2$ when $n = 3$, and at $3$ when $n = 4$. Therefore, $$i$$ always starts at $n - 1$.
+- $$p$$ starts $(n - 1)$ steps behind $$i$$. Therefore, $p = i - (n - 1)$

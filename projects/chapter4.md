@@ -1,5 +1,5 @@
 ---
-title: Chapter 4 - Naïve Bayes Sentiment Classifier
+title: Chapter 4 - Naive Bayes Sentiment Classifier
 layout: post
 ---
 ## What it is
@@ -18,7 +18,7 @@ The chapter provided examples on how to use the classifier for analyzing the sen
 
 For reference, here's the algorithm provided by Jurafsky and Martin:
 
-![nbalgorithm](/assets/nbalgorithm.png)
+![nbalgorithm](/assets/nbalgorithm.PNG)
 _[Jurafsky & Martin (2021), p. 6](https://web.stanford.edu/~jurafsky/slp3/4.pdf#figure.4.2)_
 
 The function to train the Naïve Bayes classifier takes two arguments: the list of documents **D**, and their associated classes **C**. While the pseudocode outlines the overall structure of the function, we still have to decide how to represent D and C in Python. Since each document necessarily belongs to a class, we can represent both D and C as a single dictionary in which each key is the name of a class and each value is the a list of documents that belongs to that class. Each document is itself a list of words. Here's how that would look like, using an example from the textbook:
