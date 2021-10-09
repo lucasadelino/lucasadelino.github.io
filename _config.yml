@@ -34,7 +34,7 @@ github:
   username: lucasadelino             # change to your github username
 
 twitter:
-  username: addot            # change to your twitter username
+  username: lcsadelino            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -43,11 +43,12 @@ social:
   email: lcsadelino@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/addot      # change to your twitter homepage
+    - https://twitter.com/lcsadelino      # change to your twitter homepage
     - https://github.com/lucasadelino       # change to your github homepage
+    - https://www.linkedin.com/in/username
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    # - 
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
