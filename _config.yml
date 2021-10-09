@@ -94,6 +94,9 @@ disqus:
 
 paginate: 10
 
+plugins: 
+  - jekyll-target-blank
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
@@ -114,17 +117,6 @@ collections:
 
 
 defaults:
-  -
-    scope:
-      path: ''
-    values:
-      dynamic_title: true   
-  -
-    scope:
-      path: 'projects'
-    values:
-      layout: post
-      toc: true   
   -
     scope:
       path: ''          # An empty string here means all files in the project
