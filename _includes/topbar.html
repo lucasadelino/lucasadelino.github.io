@@ -54,7 +54,7 @@
           {%- capture tab_key -%}{{ page.url | split: '/' }}{%- endcapture -%}
           {{- site.data.locales[lang].tabs[tab_key] | default: page.title -}}
         {% else %}
-          {{- page.title | default: page.layout | capitalize -}}
+          {{- site.data.locales[lang].layout[page.layout] | default: page.layout | capitalize -}}
         {% endif %}
       </div>
   
