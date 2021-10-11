@@ -1,5 +1,5 @@
 ---
-title: New website
+title: Site
 layout: post
 ---
 
@@ -7,7 +7,7 @@ layout: post
 
 ## The setup
 
-I created my last portfolio using [Wix](http://wix.com/), a simple, online website-builder. Wix greatest pro is also its greatest con: it is What You See Is What You Get (WYSIWYG). This means that anyone can build a Wix website, since you don't need to know how to code. It also means that Wix isn't as customizable, easy to update, or rich in features as non-WYSIWYG platforms. Moreover, setting up a custom domain for a Wix website requires you to sign up for their (relatively expensive) premium plan. Since I was learning more about coding, I thought I could take another shot at doing a portfolio (and use a custom domain for a fraction of the price).
+I created my [previous portfolio](https://lcsadelino.wixsite.com/eportfolio) using [Wix](http://wix.com/), a simple online website builder. Wix's greatest pro is also its greatest con: it is What You See Is What You Get (WYSIWYG). This means that anyone can build a Wix website, since you don't need to know how to code. It also means that Wix isn't as customizable, easy to update, or rich in features as non-WYSIWYG platforms. Moreover, setting up a custom domain for a Wix website requires you to sign up for their (relatively expensive) premium plan. Since I was learning more about coding, I thought I could take another shot at doing a portfolio (and use a custom domain for a fraction of the price).
 
 Two things pushed me to use the platform that I used: 
 
@@ -17,3 +17,5 @@ Two things pushed me to use the platform that I used:
 ## The process
 
 ### Challenge #1: Learning Jekyll
+
+### Challenge #2: Customizing the theme

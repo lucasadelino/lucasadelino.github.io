@@ -4,11 +4,11 @@ layout: post
 ---
 ## What it is
 
-A multinomial Naïve Bayes classifier trained on a corpus of 105,195 movie reviews in Portuguese, built by scrapping user film reviews from [Filmow](http://filmow.com). 
+A multinomial Naive Bayes classifier trained on a corpus of 105,195 movie reviews in Portuguese, built by scrapping user film reviews from [Filmow](http://filmow.com). 
 
 ## The setup
 
-[Chapter 4 of Jurafsky & Martin](https://web.stanford.edu/~jurafsky/slp3/4.pdf) introduces the reader to Naïve Bayes classifiers. The chapter provided a description of the algorithm for the classifier (in pseudocode), so I thought that trying my hand at implementing it in Python would make for interesting practice. 
+[Chapter 4 of Jurafsky & Martin](https://web.stanford.edu/~jurafsky/slp3/4.pdf) introduces the reader to Naive Bayes classifiers. The chapter provided a description of the algorithm for the classifier (in pseudocode), so I thought that trying my hand at implementing it in Python would make for interesting practice. 
 
 The chapter provided examples on how to use the classifier for analyzing the sentiment of movie reviews. I decided that I would test my implementation using movie reviews as well, but, to put my own spin on it, I would use movie reviews written in Portuguese.
 
@@ -21,7 +21,7 @@ For reference, here's the algorithm provided by Jurafsky and Martin:
 ![nbalgorithm](/assets/nbalgorithm.PNG)
 _[Jurafsky & Martin (2021), p. 6](https://web.stanford.edu/~jurafsky/slp3/4.pdf#figure.4.2)_
 
-The function to train the Naïve Bayes classifier takes two arguments: the list of documents **D**, and their associated classes **C**. While the pseudocode outlines the overall structure of the function, we still have to decide how to represent D and C in Python. Since each document necessarily belongs to a class, we can represent both D and C as a single dictionary in which each key is the name of a class and each value is the a list of documents that belongs to that class. Each document is itself a list of words. Here's how that would look like, using an example from the textbook:
+The function to train the Naive Bayes classifier takes two arguments: the list of documents **D**, and their associated classes **C**. While the pseudocode outlines the overall structure of the function, we still have to decide how to represent D and C in Python. Since each document necessarily belongs to a class, we can represent both D and C as a single dictionary in which each key is the name of a class and each value is the a list of documents that belongs to that class. Each document is itself a list of words. Here's how that would look like, using an example from the textbook:
 
 ```python
 class_dict = {'negative': [['just', 'plain', 'boring'], 
@@ -41,7 +41,7 @@ You can check out that first version of the code [here](https://git.io/Ja5xG).
 
 ### Challenge #2: Building a corpus of movie reviews in Portuguese
 
-Once I had the Naïve Bayes classifier working, it was time to find a corpus of film reviews to train the classifier. For my n-gram project, I was fortunate enough to find a corpus on the internet. I had hoped to do the same for this project, but if there are any corpora of movie reviews in Portuguese out there, I could not find them. This meant that I would have to build my own, which looked like a good opportunity to learn web scraping with Python (which I knew virtually nothing about). 
+Once I had the Naive Bayes classifier working, it was time to find a corpus of film reviews to train the classifier. For my n-gram project, I was fortunate enough to find a corpus on the internet. I had hoped to do the same for this project, but if there are any corpora of movie reviews in Portuguese out there, I could not find them. This meant that I would have to build my own, which looked like a good opportunity to learn web scraping with Python (which I knew virtually nothing about). 
 
 First, I had to decide where I would get my data from. My first instinct was [IMDB](http://www.imdb.com) or [Letterboxd](http://www.letterboxd.com), both of which have official APIs, but most user reviews in these platforms are written in English. I then set my sights on [Filmow](https://filmow.com/), a film-centered Brazilian social network. 
 
@@ -61,9 +61,9 @@ I first wrote a [simple scraper](https://git.io/Jab1J) to find all the comments 
 
 ### Challenge #3: Testing the program
 
-Since I wanted to use these comments to train a Naïve Bayes classifier, I used the scraper to only target the text from positive (3 out of 5 stars or more) or negative (2/5 stars or less) reviews. I saved these in different .txt files, which you can find here: [positivo.txt](https://git.io/JaN4X) / [negativo.txt](https://git.io/JaNB0).
+Since I wanted to use these comments to train a Naive Bayes classifier, I used the scraper to only target the text from positive (3 out of 5 stars or more) or negative (2/5 stars or less) reviews. I saved these in different .txt files, which you can find here: [positivo.txt](https://git.io/JaN4X) / [negativo.txt](https://git.io/JaNB0).
 
-Now here's something interesting: after running the comment scraper on 100 movies, the .txt file for negative comments had about 1MB. Meanwhile, the file for positive comments had 21MB! This is because user ratings for films on Filmow, on average, tend to be more positive than negative. I knew that the Naïve Bayes classifier takes the number of documents in a class into account, but I was still curious to see how it behaved with such lopsided data. I tested the classifier using random reviews I wrote, and found that it would sometimes flag positive reviews as negative. For instance, it flagged this review as positive:
+Now here's something interesting: after running the comment scraper on 100 movies, the .txt file for negative comments had about 1MB. Meanwhile, the file for positive comments had 21MB! This is because user ratings for films on Filmow, on average, tend to be more positive than negative. I knew that the Naive Bayes classifier takes the number of documents in a class into account, but I was still curious to see how it behaved with such lopsided data. I tested the classifier using random reviews I wrote, and found that it would sometimes flag positive reviews as negative. For instance, it flagged this review as positive:
 
 > "Esse filme é muito ruim" *(This movie is really bad)*
 > 

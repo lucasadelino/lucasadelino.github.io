@@ -14,4 +14,10 @@ I have been studying Natural Language Processing through Jurafsky and Martin's (
 
 [Chapter 3 - N-gram Sentence Generator]({% link projects/chapter3.md %})
 
-[Chapter 4 - Naïve Bayes Sentiment Classifier]({% link projects/chapter4.md %})
+[Chapter 4 - Naive Bayes Sentiment Classifier]({% link projects/chapter4.md %})
+
+## Site
+
+Here I describe how and why I created this website:
+
+[Site]({% link projects/site.md %})
