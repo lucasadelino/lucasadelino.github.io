@@ -11,7 +11,7 @@ My name is Lucas Adelino, and I'm an educator with a passion for language and te
 
 I first started college as an undergrad in Computer Science at the [Federal University of Pernambuco](https://www.ufpe.br/). I deeply enjoyed the program, but at the time, my love for writing led me to change majors Communication/Journalism. During my undergrad, I worked as a PR intern at several institutions in my hometown of [Recife](https://en.wikipedia.org/wiki/Recife). I graduated with a bachelor's in Journalism in 2017. 
 
-In that same year, I was admitted into [Auburn University](auburn.edu) as a master's student in Adult Education. After my first semester, I started working as a graduate assistant at Auburn's [University Writing](https://www.auburn.edu/academic/provost/university-writing/) initiative. My experiences at Auburn were incredibly impactful: I got to learn the theory and practice of teaching, collaborate with my mentors in exciting research projects, and present at national conferences.
+In that same year, I was admitted into [Auburn University](http://auburn.edu) as a master's student in Adult Education. After my first semester, I started working as a graduate assistant at Auburn's [University Writing](https://www.auburn.edu/academic/provost/university-writing/) initiative. My experiences at Auburn were incredibly impactful: I got to learn the theory and practice of teaching, collaborate with my mentors in exciting research projects, and present at national conferences.
 
 During my master's, I took a few linguistics courses while pursuing an English Language Teaching certificate. These were the most inspiring courses I took in my whole time at Auburn, and it wasn't long before I knew I had to continue my studies in Linguistics. 
 
