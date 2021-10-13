@@ -4,7 +4,9 @@ layout: page
 icon: fas fa-code
 order: 2
 ---
-In preparation for my PhD applications, I have been studying programming, algorithms and data structures, and natural language processing. 
+In preparation for PhD applications, I have been studying natural language processing and algorithms and data structures. To practice the concepts I learn, I created the projects below.
+
+Rather than just having the projects speak for themselves, I felt it was important for me to document _how_ they came to be, something you can't really do just with comments and doc-strings in code. I wanted to show that process in terms of _problem-solving_, so I outlined the major challenges I encountered and how I approached them. Lastly, describing the process was highly beneficial to my learning! As anyone wont to do [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) can tell you, explaining something can make yourself understand it much better.
 
 ## Natural Language Processing
 
@@ -18,6 +20,6 @@ I have been studying Natural Language Processing through Jurafsky and Martin's (
 
 ## Site
 
-Here I describe how and why I created this website:
+Here's how and why I created this website:
 
 [Site]({% link projects/site.md %}) ([Code](https://github.com/lucasadelino/lucasadelino.github.io))
