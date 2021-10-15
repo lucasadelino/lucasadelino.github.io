@@ -185,7 +185,7 @@ For our 4-gram $(n = 4)$, in our first iteration would have:
 We can generalize from the above to get the starting values of $$i$$ and $$p$$:
 
 - $$i$$ starts at $2$ when $n = 3$, and at $3$ when $n = 4$. Therefore, $$i$$ always starts at $n - 1$.
-- $$p$$ starts $(n - 1)$ steps behind $$i$$. Therefore, $p always starts at $i - (n - 1)$
+- $$p$$ starts $(n - 1)$ steps behind $$i$$. Therefore, $$p$$ always starts at $i - (n - 1)$
 
 We're almost ready to write our function! We just need one more thing: a parameter that tells the function to add (or not) `<s>` and `</s>` markers to the list of tokens before forming and counting n-grams. The final result looks like this:
 

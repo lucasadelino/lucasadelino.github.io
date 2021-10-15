@@ -6,3 +6,7 @@ order: 3
 ---
 
 # 🚧 Under construction 🚧
+
+## [Teaching]({% link experience/teaching.md %})
+
+## [Research]({% link experience/research.md %})
