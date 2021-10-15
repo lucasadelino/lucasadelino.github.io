@@ -125,6 +125,12 @@ defaults:
       toc: true   
   -
     scope:
+      path: 'experience'
+    values:
+      layout: post
+      toc: true 
+  -
+    scope:
       path: ''          # An empty string here means all files in the project
       type: posts
     values:
