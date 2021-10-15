@@ -2,7 +2,7 @@
 title: Teaching
 ---
 
-## Academic tutoring
+## Academic Tutoring
 
 I am currently serving as an academic tutor at the Academic Support Program for Student Athletes (ASPSA) of the University of North Carolina at Chapell Hill. I tutor Portguese as well as general study skills.
 
