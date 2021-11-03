@@ -1,13 +1,24 @@
 ---
 title: Research
 ---
+# 🚧 Under construction 🚧
+
+## Professional Development 
+
+During my time at Auburn, I was fortunate to work with one of my adult education professors, Dr. Leslie Cordie, on a number of research articles focusing on professional development.
+
+The first article Dr. Cordie and I did together was a case study about an assessment initiative that had been carried out by University Writing (the same initiative that originated the study on ePortfolio use after graduation). The initiative trained faculty to assess ePortfolios based on a rubric that had been developed by University Writing staff. Guided by University Writing staff, Dr. Cordie and I looked at comments from a post-session survey with the faculty to analyze how and what they had learned, and what could have been done for them to learn better. We used Jack Mezirow's (2003) theory of Transformative Learning as the framework for the analysis. This study has been published in the Journal of Transformative Learning.
+
+For our second article, we worked together with Dr. Anne Graham Cagney on a study about Fulbright scholars. The study analyzed interviews with faculty who had gone abroad on Fulbright scholarships. We wanted to understand the impact of international collaborations and social learning networks such as the ones developed on the careers of faculty; because of that, we used Wenger-Trayner's (2015)  idea of communities of practice to shape our analysis. This study has been published in the Learning Communities Journal.
+
+In both these articles, I performed qualitative analysis, wrote parts of the articles (usually the introduction, findings or discussion sections), and edited and proofread the final drafts. These experiences taught me much about qualitative research. Even though the objects of study were different, the process of analyzing them was somewhat similar, which made the task of writing these articles seem less daunting to me. I really enjoyed the opportunity of learning more about the scholarship on faculty development and communities of practice, which I had previously heard about but was not familiar with. Of course, all of this was only possible with the invaluable guidance of Dr. Cordie, who has become one of my professional mentors. We have just began working on another article, so stay tuned for more!
 
 ## Use of ePortfolios After Graduation
 
 One of my responsibilities as a program assistant at the ePortfolio Project was to conduct research with professors and supervisors.
 
 My supervisors and I started a research project on use of ePortfolios after graduation. There are plenty of studies that outline the benefits of ePortfolios for learning and career development, or that gauge how students perceive ePortfolios. However, there are much fewer studies on how—if at all—students continue to use their ePortfolios after graduating. This was especially important to us at the ePortfolio project since we taught ePortfolios as outward-facing, professional documents that students could carry with them beyond graduation.
-​
+
 This project first started based on an assessment initiative that had been carried out by our office. This initiative surveyed hundred of students who had ePortfolios. Among other questions, the survey asked students whether they had evidence that their ePortfolios helped them secure a job or be admitted to a graduate program. We carried out a pilot study that analyzed what excatly students considered "successful evidence" of ePortoflio use in a job or graduate school search. My coworkers and I published and presented the results of the pilot study. We are currently working on the full research project, where we interviewed 10 alumni to more deeply understand how they used their ePortfolios in their careers. We have presented the preliminary results of this study at the 2020 Annual Meeting of the Association of American Colleges & Universities (AAC&U).
 
 For this research project, I've performed several roles, including transcribing  interviews, performing qualitative analysis, drafting conference proposals, and writing reviews of the literature. I enjoyed all aspects of it, but doing qualitative analysis stands out because it of its collaborative nature: it's great to discuss, challenge, and ultimately refine ideas, and it's even best to look at the end results and see your and your coauthors' ideas, now transformed into something more than the sum of their parts. I was lucky to work with exceptional colleagues who made this exchange possible.
@@ -23,16 +34,6 @@ After receiving IRB approval, and with permission from Auburn's Department of Co
 Conducting my master's thesis research was challenging but immensely rewarding. The challenge I am most proud of overcoming was becoming proficient with SPSS and knowing how and when to use statistical tests. I was fortunate to have the assured direction of Dr. James Witte, my advisor, to guide me through that process. But, interestingly, the part of the finished product I am most proud of is the literature review. I took a deep dive into the fascinating scholarship of self-directed learning among adults. I had previously learned about key authors and ideas in that area during my classes, but during my thesis, I learned even more by studying the original works and reading the words of the authors themselves. The literature review also showed me how unexplored the topic of self-direction is among computer science learners, and I am proud to have made my own, small contribution to the field.
 
 The three images on the left are from my thesis and were created using SPSS. You can access my thesis at Auburn's database of theses and dissertations.
-
-## Professional Development
-
-During my time at Auburn, I was fortunate to work with one of my adult education professors, Dr. Leslie Cordie, on a number of research articles. These articles focus on various areas of research, but all of them involved professional development in one way or another.
-
-The first article Dr. Cordie and I did together was a case study about an assessment initiative that had been carried out by University Writing (the same initiative that originated the study on ePortfolio use after graduation). The initiative trained faculty to assess ePortfolios based on a rubric that had been developed by University Writing staff. Guided by University Writing staff, Dr. Cordie and I looked at comments from a post-session survey with the faculty to analyze how and what they had learned, and what could have been done for them to learn better. We used Jack Mezirow's (2003) theory of Transformative Learning as the framework for the analysis. This study has been published in the Journal of Transformative Learning.
-
-For our second article, we worked together with Dr. Anne Graham Cagney on a study about Fulbright scholars. The study analyzed interviews with faculty who had gone abroad on Fulbright scholarships. We wanted to understand the impact of international collaborations and social learning networks such as the ones developed on the careers of faculty; because of that, we used Wenger-Trayner's (2015)  idea of communities of practice to shape our analysis. This study has been published in the Learning Communities Journal.
-
-In both these articles, I performed qualitative analysis, wrote parts of the articles (usually the introduction, findings or discussion sections), and edited and proofread the final drafts. These experiences taught me much about qualitative research. Even though the objects of study were different, the process of analyzing them was somewhat similar, which made the task of writing these articles seem less daunting to me. I really enjoyed the opportunity of learning more about the scholarship on faculty development and communities of practice, which I had previously heard about but was not familiar with. Of course, all of this was only possible with the invaluable guidance of Dr. Cordie, who has become one of my professional mentors. We have just began working on another article, so stay tuned for more!
 
 ## Linguistics Poster
 
