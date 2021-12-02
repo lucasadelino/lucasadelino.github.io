@@ -1,7 +1,6 @@
 ---
 title: Research
 ---
-# 🚧 Under construction 🚧
 
 ## Professional Development 
 
