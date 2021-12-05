@@ -6,7 +6,7 @@ title: Teaching
 
 Between the Fall of 2020 and Spring of 2021, I served as an academic tutor at the Academic Support Program for Student Athletes (ASPSA) of the University of North Carolina at Chapel Hill. I tutored Portuguese and guided study sessions.
 
-![Tutor](/assets/tutor.png){: width="500" height="400" style="max-width: 300px" .right} 
+![Tutor](/assets/tutor.png){: style="max-width: 35%" .right} 
 
 This experience represented many 'firsts' for me, which posed significant challenges (especially when I first started) but also made me grow significantly as a teacher. For one, it was my first time teaching a foreign language. It became very clear to me that there is a wide rift between knowing a language and knowing *how to teach* a language. Because Portuguese was my first language, I learned it so organically (and so long ago) that I have internalized many of its quirks, which distanced me from the perspective of someone who is learning it for the first time. I knew I had to try to counteract this as best as I could before I started tutoring. Thankfully, my coursework at Auburn had given me a solid pedagogical background. As a refresher, I reread Lightbrown and Spada's (2006) How Languages are Learned, which I had been introduced to during an Applied Linguistics course. On the practical side of things, I studied Jouët-Pastré et al. (2013) textbook Ponto de Encontro, which was what my students used for their Portuguese UNC coursework.
 
@@ -22,7 +22,7 @@ Other 'firsts': this was my first time facilitating sessions exclusively via Zoo
 
 Most of the workshops I facilitated were designed to introduce students to the ePortfolio or to help them with specific aspects of ePortfolio creation, such as setting up a platform (we used Wix, Weebly, and Wordpress), writing reflections, and choosing what experiences to showcase. These workshops ranged from 50-minute introductory workshops to a series of six 90-minute workshops designed to help students create a working draft of their ePortfolios from scratch. I also facilitated one-on-one, student-directed tutoring sessions in which I provided technical support or gave feedback on student ePortfolios. 
 
-![Teaching](/assets/teaching.jpg){: width="500" height="400" style="max-width: 300px" .right}
+![Teaching](/assets/teaching.jpg){: style="max-width: 35%" .right}
 
 At Auburn, the ePortfolio Project is part of the University Writing initiative. As a result, I also taught several workshops that focused on English academic writing. These workshops included using feedback for revision, reading difficult materials, crafting personal statements, and writing literature reviews. I also participated in several events and career fairs on campus, where I introduced students (and, sometimes, parents!) to University Writing.
 
