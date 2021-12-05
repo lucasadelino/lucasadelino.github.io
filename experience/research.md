@@ -37,7 +37,7 @@ After receiving IRB approval, and with permission from the Department of Compute
 
 ![Thesis 3](/assets/thesis3.png){: style="max-width:40%" .right}
 
-Conducting my master's thesis research was daunting but immensely rewarding. The challenges I am most proud of overcoming were becoming proficient with SPSS and knowing when to use different statistical tests. I was fortunate to have the assured direction of Dr. James Witte, my advisor, to guide me through that process. But the part of the finished product I am most proud of is the literature review. I took a deep dive into the fascinating scholarship of self-directed learning. The literature review also showed me how unexplored the topic of self-direction is among computer science learners, and I am proud to have made my own, small contribution to that area.
+Conducting my master's thesis research was daunting but immensely rewarding. The challenges I am most proud of overcoming were becoming proficient with SPSS and knowing when to use different statistical tests. I was fortunate to have the assured direction of Dr. James Witte, my advisor, to guide me through that process. But the part of the finished product I am most proud of is the [literature review]({% link /assets/thesis-lit-review.pdf %}). I took a deep dive into the fascinating scholarship of self-directed learning. The literature review also showed me how unexplored the topic of self-direction is among computer science learners, and I am proud to have made my own, small contribution to that area. You can access the lit rewview using the link above.
 
 You can access my thesis on [Auburn's database of theses and dissertations](http://etd.auburn.edu/handle/10415/7247).
 
