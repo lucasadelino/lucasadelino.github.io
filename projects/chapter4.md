@@ -4,7 +4,7 @@ layout: post
 ---
 ## What it is
 
-A multinomial Naive Bayes classifier trained on a corpus of 105,195 movie reviews in Portuguese, built by scrapping user film reviews from [Filmow](http://filmow.com). 
+A Naive Bayes classifier trained on a corpus of 105,195 movie reviews in Portuguese, built by scrapping user film reviews from [Filmow](http://filmow.com). 
 
 ## The setup
 

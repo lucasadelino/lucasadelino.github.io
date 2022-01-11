@@ -18,6 +18,8 @@ I have been studying Natural Language Processing through Jurafsky and Martin's (
 
 [Chapter 4 - Naive Bayes Sentiment Classifier]({% link projects/chapter4.md %}) ([Code](https://github.com/lucasadelino/Learning-Compling/tree/main/Textbooks/Speech%20and%20Language%20Processing%20(Jurafsky%2C%20Martin)/Chapter%204%20-%20Naive%20Bayes%20and%20Sentiment%20Classification))
 
+[Chapter 5 (In Progress!) - Logistic Regression Sentiment Classifier]({% link projects/chapter5.md %}) ([Code](https://github.com/lucasadelino/Learning-Compling/tree/main/Textbooks/Speech%20and%20Language%20Processing%20(Jurafsky%2C%20Martin)/Chapter%205%20-%20Logistic%20Regression)) 
+
 ## Algorithms and Data Structures
 
 I have been taking an [algorithms and data structures course](https://www.coursera.org/learn/algorithms-part1) on Coursera, which is modeled after Sedgewick & Wayne's (2011) [Algorithms textbook](https://algs4.cs.princeton.edu/home/) and taught by the authors. The course is a [MOOC](https://en.wikipedia.org/wiki/Massive_open_online_course), but it includes several assignments and an autograder which grades them and provides feedback. Taking this course has been an enlightening experience so far, and I look forward to applying what I am learning to the linguistics projects above, when applicable. I am also grateful for the opportunity to practice Java, which is the required language for the assignments and is what the course uses when teaching algorithm implementations.
