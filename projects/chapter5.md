@@ -38,6 +38,14 @@ _[Jurafsky & Martin (2021), p. 5](https://web.stanford.edu/~jurafsky/slp3/5.pdf#
 
 Implementing the features 3 through 6 above would be relatively simple, but for the first two features, I would need a sentiment lexicon in Portuguese. I found an article by Freitas and Vieira (2015)[^1] describing comparing several Portuguese sentiment lexicons. I chose to use [OpLexicon](https://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/oplexicon/) since it was comparatively leaner relative to the other lexicons. 
 
+### Challenge #3: Producing reliable testing data
+
+In contrast with the naive Bayes classifier, this implementation was not successful in accurately testing example movie reviews. One of the major reasons for this is that this classifier does not employ lemmatization, semantic parsing, or any other processing of the input reviews. This means that neither verbs nor negated adjective are accurately processed, which causes the count of negative words to be lower than it should, which in turn confuses the classifier when it comes to testing negative reviews. 
+
+The lack of lemmatization is on purpose: these projects are created to benefit my learning. I realize there are NLP libraries out there that could handle these tasks relatively easily, but my goal is to become intimate with _how_ that processing actually takes place, and I feel using a preexisting library would not take me closer to that goal. 
+
+However, even though this classifier can't accurately test data, the _experince_ of building it taught me much nevertheless. Analyzing the classifier and finding explanations for why something isn't working was very enlightening. Additionally, this was an example of a use case where naive Bayes classifiers are "good enough" (which is something the textbook had alluded to, in this chapter).
+
 [^1]: Freitas, L. A., Vieira, R. (2015). Exploring Resources for Sentiment Analysis in Portuguese Language. *2015 Brazilian conference on intelligent systems (BRACIS)* , 152-156. https://doi.org/10.1109/BRACIS.2015.52
 
 
