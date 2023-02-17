@@ -39,7 +39,7 @@ I built my first portfolio using Wix. I built this website using Jekyll (and Git
 
 ## What are the resources you linked in the end of the presentation again?
 - These two in-depth comparisons between [Wix/Weebly](https://www.kasareviews.com/wix-vs-weebly-comparison/) and [Wix/WordPress(.org)](https://www.kasareviews.com/wix-vs-wordpress-comparison/)
-- Auburn University Writing has an [ePortfolio example gallery](auburn.edu/eportfolio). This is a great way to see how other students setup their websites and to get a quick sense of what a finished product on Wix or Weebly may look like
+- Auburn University Writing has an [ePortfolio example gallery](https:auburn.edu/eportfolio). This is a great way to see how other students setup their websites and to get a quick sense of what a finished product on Wix or Weebly may look like
 	- Also check out their [resources page](https://auburn.edu/academic/provost/university-writing/resources/)
 - The Media and Design center here at UNC has a [helpful info page on ePortfolios](https://guides.lib.unc.edu/media-design-center/portfolios), which includes example galleries from several other universities
 - UNC has its own link shortener service: [https://go.unc.edu/](https://go.unc.edu/)
