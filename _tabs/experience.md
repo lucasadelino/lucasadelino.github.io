@@ -4,7 +4,7 @@ layout: page
 icon: fas fa-briefcase
 order: 3
 ---
-In the pages below, you can learn more about the experiences I accrued during and after my master's program. 
+In the pages below, you can learn more about the experiences I accrued during and after my master's at Auburn. 
 
 
 

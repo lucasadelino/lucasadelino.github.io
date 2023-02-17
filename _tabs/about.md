@@ -17,6 +17,6 @@ During my master's, I took a few linguistics courses while pursuing an English L
 
 After graduating from Auburn in 2020, I worked for two semesters as a Portuguese language tutor at the [Academic Support Program for Student Athletes](https://aspsa.unc.edu/) at UNC-Chapel Hill. This experience allowed me to put in practice many of the concepts I had learned about in my adult education and linguistics courses. 
 
-My current focus is on applying to graduate programs in Linguistics starting this Fall. To support my applications, I have completed several projects, which you can check out in the [Projects]({% link _tabs/projects.md %}) section of this site. Feel free to follow me on [Twitter](https://twitter.com/lcsadelino) and [GitHub](https://github.com/lucasadelino) for updates on these projects!
+I am now a Linguistics graduate student at UNC. To support my UNC grad school application in 2021, I completed several projects, which you can check out in the [Projects]({% link _tabs/projects.md %}) section of this site. Feel free to follow me on [Twitter](https://twitter.com/lcsadelino) and [GitHub](https://github.com/lucasadelino) for updates!
 
 When I'm not working, you can likely find me hanging out with my cat Bo, watching TV with my wife, gaming, or cooking.
