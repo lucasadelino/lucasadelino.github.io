@@ -3,7 +3,7 @@ title: 2023 Spring Colloquium Workshop - Companion Resource
 layout: post
 ---
 
-## What's the rundown on Wix vs Weebly vs WordPress?
+## The rundown on Wix vs Weebly vs WordPress
 You can think of these three platforms as lying on a scale of customizability versus ease of use. I should emphasize that *they're all pretty easy to use*, just in different degrees:
  - **Wix** offers you a lot of room to reshape and move elements around in your website, but that means you might have to fiddle with its website editor a little more. Another downside is the 'Created with Wix' banner it displays on the top of your site, if you have a free website.
  - **Weebly** is still very customizable, but its templates are a little more restrictive than Wix's. Weebly also displays a 'Powered by Weebly' banner in free websites, but it is (imo) more discreet. Weebly is also cheaper than Wix if you decide on upgrading to a paid website.
@@ -20,7 +20,7 @@ It does! And it also gives you a free [tarheels.live/](https://tarheels.live/) d
 - **Webflow** is like an in-between of a drag-and-drop, WYSIWYG editor, and something more advanced. It has your usual editor, with menus where you can visually create and edit your website, but these menus offer you way greater control about everything. They also use HMTL/CSS lingo, so this is a great stepping stone if you want to get into basic web dev, but still have a visual editor to orient yourself. Webflow has an unlimited trial period, but  
 - **Carrd** is great if you need a simple landing page.
 
-## I actually know some programming, and would like to use some of the static website pages you mentioned. How would I go about this?
+## I actually know some programming, and would like to use some of those static website generators
 Awesome! Static website generators typically work by converting Markdown files to HTML. This is likely especially helpful to you if you use notetaking apps like [Notion](https://www.notion.so/) or [Obsidian](https://obsidian.md/). Even if you don't, it's way easier to write the actual content of your pages using Markdown, and let a static site generator do the rest of the heavy lifting.
 
 If you want to go this route, there are many options available, typically based on different programming languages. Some popular options are
@@ -35,7 +35,7 @@ Whichever platform you use, you will need to host your website somewhere and pot
 ### What did *you* use?
 I built my first portfolio using Wix. I built this website using Jekyll (and GitHub Pages for hosting).
 
-## What are the resources you linked in the end of the presentation again?
+## Other Resources
 - These two in-depth comparisons between [Wix/Weebly](https://www.kasareviews.com/wix-vs-weebly-comparison/) and [Wix/WordPress(.org)](https://www.kasareviews.com/wix-vs-wordpress-comparison/)
 - Auburn University Writing has an [ePortfolio example gallery](https://www.auburn.edu/academic/provost/university-writing/what-we-do/eportfolios.php). This is a great way to see how other students setup their websites and to get a quick sense of what a finished product on Wix or Weebly may look like
 	- Also check out their [resources page](https://auburn.edu/academic/provost/university-writing/resources/)
