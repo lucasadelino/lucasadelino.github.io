@@ -3,10 +3,8 @@ title: 2023 Spring Colloquium Workshop - Companion Resource
 layout: post
 ---
 
-## What's the rundown on Wix vs Weebly vs Wordpress?
-Both Wix, Weebly, and WordPress.com
-
-You can think of these three platforms as lying on a scale of customizability versus ease of use. I note here that *they're all pretty easy to use*, just in different degrees:
+## What's the rundown on Wix vs Weebly vs WordPress?
+You can think of these three platforms as lying on a scale of customizability versus ease of use. I should emphasize that *they're all pretty easy to use*, just in different degrees:
  - **Wix** offers you a lot of room to reshape and move elements around in your website, but that means you might have to fiddle with its website editor a little more. Another downside is the 'Created with Wix' banner it displays on the top of your site, if you have a free website.
  - **Weebly** is still very customizable, but its templates are a little more restrictive than Wix's. Weebly also displays a 'Powered by Weebly' banner in free websites, but it is (imo) more discreet. Weebly is also cheaper than Wix if you decide on upgrading to a paid website.
  - **WordPress.com** is even less customizable. Their design ethos seems to prefer a "set-and-forget" approach, where you pick a template and don't fiddle around with it much. Templates also vary in how much they let you customize them. All this makes WordPress potentially very easy to use, but it can also be really annoying when your theme doesn't allow you to change something that ought to be really easy. Since WordPress.com is really popular, and has been around for a long time, this might be the choice for you if you already have 
