@@ -20,7 +20,7 @@ It does! And it also gives you a free [tarheels.live/](https://tarheels.live/) d
 - **Webflow** is like an in-between of a drag-and-drop, WYSIWYG editor, and something more advanced. It has your usual editor, with menus where you can visually create and edit your website, but these menus offer you way greater control about everything. They also use HMTL/CSS lingo, so this is a great stepping stone if you want to get into basic web dev, but still have a visual editor to orient yourself. Webflow has an unlimited trial period, but  
 - **Carrd** is great if you need a simple landing page.
 
-## I actually know some programming, and would like to use some of those static website generators
+## I actually know some programming, and would like to use a static website generator
 Awesome! Static website generators typically work by converting Markdown files to HTML. This is likely especially helpful to you if you use notetaking apps like [Notion](https://www.notion.so/) or [Obsidian](https://obsidian.md/). Even if you don't, it's way easier to write the actual content of your pages using Markdown, and let a static site generator do the rest of the heavy lifting.
 
 If you want to go this route, there are many options available, typically based on different programming languages. Some popular options are
