@@ -4,7 +4,7 @@ layout: nonpost
 ---
 ## What it is
 
-A Naive Bayes classifier trained on a corpus of 105,195 movie reviews in Portuguese, built by scrapping user film reviews from [Filmow](http://filmow.com). 
+A Naive Bayes classifier trained on a corpus of 105,195 movie reviews in Portuguese, built by scrapping user film reviews from [Filmow](https://filmow.com). 
 
 ## The setup
 
@@ -43,7 +43,7 @@ You can check out that first version of the code [here](https://git.io/Ja5xG).
 
 Once I had the Naive Bayes classifier working, it was time to find a corpus of film reviews to train the classifier. For my n-gram project, I was fortunate enough to find a corpus on the internet. I had hoped to do the same for this project, but if there are any corpora of movie reviews in Portuguese out there, I could not find them. This meant that I would have to build my own, which looked like a good opportunity to learn web scraping with Python (which I knew virtually nothing about). 
 
-First, I had to decide where I would get my data from. My first instinct was [IMDB](http://www.imdb.com) or [Letterboxd](http://www.letterboxd.com), both of which have official APIs, but most user reviews in these platforms are written in English. I then set my sights on [Filmow](https://filmow.com/), a film-centered Brazilian social network. 
+First, I had to decide where I would get my data from. My first instinct was [IMDB](https://www.imdb.com) or [Letterboxd](https://www.letterboxd.com), both of which have official APIs, but most user reviews in these platforms are written in English. I then set my sights on [Filmow](https://filmow.com/), a film-centered Brazilian social network. 
 
 ![Filmow](/assets/filmowss.png){: width="988" height="909" } 
 _Profile of Dune (2021) on Filmow_

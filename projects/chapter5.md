@@ -6,7 +6,7 @@ layout: nonpost
 
 ## What it is
 
-A [logistic classifier](https://github.com/lucasadelino/Learning-Compling/tree/main/Textbooks/Speech%20and%20Language%20Processing%20(Jurafsky%2C%20Martin)/Chapter%205%20-%20Logistic%20Regression) trained on a corpus of 105,195 movie reviews in Portuguese, built by scrapping user film reviews from [Filmow](http://filmow.com) (the same corpus used in the [previous chapter]({% link projects/chapter4.md %})). 
+A [logistic classifier](https://github.com/lucasadelino/Learning-Compling/tree/main/Textbooks/Speech%20and%20Language%20Processing%20(Jurafsky%2C%20Martin)/Chapter%205%20-%20Logistic%20Regression) trained on a corpus of 105,195 movie reviews in Portuguese, built by scrapping user film reviews from [Filmow](https://filmow.com) (the same corpus used in the [previous chapter]({% link projects/chapter4.md %})). 
 
 ## The setup
 

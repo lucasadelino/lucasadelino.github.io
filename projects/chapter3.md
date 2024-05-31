@@ -5,7 +5,7 @@ math: true
 ---
 ## What it is
 
-A [bot](https://twitter.com/assis_bot) that uses an n-gram language model trained on the [Machado de Assis Digital Corpus](http://machado.byu.edu) to generate random sentences.
+A [bot](https://twitter.com/assis_bot) that uses an n-gram language model trained on the [Machado de Assis Digital Corpus](https://machado.byu.edu) to generate random sentences.
 
 ## The setup
 
@@ -17,13 +17,13 @@ I was particularly inspired by the following example, which the authors used to 
 
 [*Jurafsky & Martin (2021), p. 11*](https://web.stanford.edu/~jurafsky/slp3/3.pdf#figure.3.4)
 
-I thought that was the coolest thing I'd seen while learning NLP so far. I wanted to implement a similar bot, but I wanted my bot to model a Brazilian author. Machado de Assis was my first choice because his works are in the public domain and after some searching I found the [Machado the Assis Digital Corpus Project](http://machado.byu.edu) from Brigham Young University, which perfectly suited this project.
+I thought that was the coolest thing I'd seen while learning NLP so far. I wanted to implement a similar bot, but I wanted my bot to model a Brazilian author. Machado de Assis was my first choice because his works are in the public domain and after some searching I found the [Machado the Assis Digital Corpus Project](https://machado.byu.edu) from Brigham Young University, which perfectly suited this project.
 
 ## The process
 
 ### Challenge #1: Sentence segmentation and tokenization
 
-Before I could even start thinking about the design of my n-gram algorithm, I first had to consider how I would approach sentence segmentation and tokenization. I could (and definitely would, if this were a professional project!) use an established tokenizer (like, say, [NLTK](http://www.nltk.org/)'s), but since this was a learning project I thought it would be interesting to write my own (very crude) segmenter and tokenizer using regular expressions.
+Before I could even start thinking about the design of my n-gram algorithm, I first had to consider how I would approach sentence segmentation and tokenization. I could (and definitely would, if this were a professional project!) use an established tokenizer (like, say, [NLTK](https://www.nltk.org/)'s), but since this was a learning project I thought it would be interesting to write my own (very crude) segmenter and tokenizer using regular expressions.
 
 For sentence segmentation, I decided to use periods, question marks, and exclamation marks as sentence delimiters. The segmenter basically returns a list of all matches of the regex below:
 
