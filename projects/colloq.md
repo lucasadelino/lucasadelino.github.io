@@ -1,6 +1,6 @@
 ---
 title: 2023 Spring Colloquium Workshop - Companion Resource
-layout: post
+layout: nonpost
 ---
 
 ## The rundown on Wix vs Weebly vs WordPress

@@ -1,6 +1,6 @@
 ---
 title: Chapter 4 - Naive Bayes Sentiment Classifier
-layout: post
+layout: nonpost
 ---
 ## What it is
 

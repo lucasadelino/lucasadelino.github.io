@@ -1,6 +1,6 @@
 ---
 title: Site
-layout: post
+layout: nonpost
 ---
 
 ## What it is

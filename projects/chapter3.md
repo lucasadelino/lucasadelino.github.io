@@ -1,6 +1,6 @@
 ---
 title: Chapter 3 - N-gram Sentence Generator
-layout: post
+layout: nonpost
 math: true
 ---
 ## What it is

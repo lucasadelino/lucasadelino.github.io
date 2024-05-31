@@ -1,6 +1,6 @@
 ---
 title: Chapter 5 - Logistic Regression
-layout: post
+layout: nonpost
 
 ---
 

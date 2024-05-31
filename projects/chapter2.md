@@ -1,6 +1,6 @@
 ---
 title: Chapter 2 - Minimum Edit Distance Calculator
-layout: post
+layout: nonpost
 math: true
 ---
 ## What it is
