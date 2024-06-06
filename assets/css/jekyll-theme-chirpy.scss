@@ -1,0 +1,43 @@
+---
+---
+
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+.table-news{
+    min-width: 100%;
+    overflow-x: auto;
+    border-spacing: 0;
+
+    thead {
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+
+    th {
+        @extend %table-cell;
+    }
+    }
+
+    tbody {
+    tr {
+        border-bottom: 1px solid var(--tb-border-color);
+        
+        &:nth-child(2n) {
+            background-color: var(--tb-odd-bg) !important;
+        }
+        
+        &:nth-child(2n + 1) {
+        background-color: var(--ann) !important;
+        }
+
+        td {
+        @extend %table-cell;
+        font-size: 100% !important;
+        }
+    }
+    } /* tbody */
+} /* table */

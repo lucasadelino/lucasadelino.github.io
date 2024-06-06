@@ -110,6 +110,11 @@ kramdown:
       start_line: 1
 
 collections:
+  news:
+    defaults:
+      layout: nonpost
+    output: true
+    permalink: /news/:path/
   tabs:
     output: true
     sort_by: order

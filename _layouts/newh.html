@@ -1,8 +1,17 @@
 ---
 layout: default
-# The Home page layout
 ---
 
 {% include lang.html %}
 
-{{content}}
+<div class="content">
+    {{ content }}
+</div>
+
+<!-- News -->
+{% if page.news %}
+    <h1>
+    <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+    </h1>
+    {% include news.liquid limit=true %}
+{% endif %}
