@@ -31,6 +31,9 @@ url: 'https://www.lucasadelino.com'
 github:
   username: lucasadelino             # change to your github username
 
+linkedin:
+  username: lcsadelino            # change to your twitter username
+
 twitter:
   username: lcsadelino            # change to your twitter username
 
@@ -41,9 +44,9 @@ social:
   email: lcsadelino@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://www.linkedin.com/in/lcsadelino
     - https://twitter.com/lcsadelino      # change to your twitter homepage
     - https://github.com/lucasadelino       # change to your github homepage
-    - https://www.linkedin.com/in/username
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - 
