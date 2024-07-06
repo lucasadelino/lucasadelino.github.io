@@ -6,7 +6,6 @@ order: 2
 ---
 ## Master's Thesis
 [Paraop]({% link projects/paraop.md %})
-[here]({% link projects/colloq.md %})
 ---
 
 ## Setting up a Webpage - 2023 Spring Colloquium Workshop
