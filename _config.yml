@@ -20,10 +20,10 @@ timezone: Brazil/East
 
 title: Lucas Adelino                          # the main title
 
-tagline: Data Scientist | NLP Engineer   # it will display as the sub-title
+tagline: Data Engineer | Computational Linguist  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Homepage of Lucas Adelino, NLP engineer.
+  Homepage of Lucas Adelino, a Data Engineer and Computational Linguist.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://www.lucasadelino.com'
@@ -124,18 +124,6 @@ collections:
 
 
 defaults:
-  -
-    scope:
-      path: 'projects'
-    values:
-      layout: post
-      toc: true   
-  -
-    scope:
-      path: 'experience'
-    values:
-      layout: post
-      toc: true 
   -
     scope:
       path: ''          # An empty string here means all files in the project
