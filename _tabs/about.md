@@ -7,7 +7,7 @@ order: 4
 
 # Nice to meet you! 👋🏽
 
-My name is Lucas Adelino, and I'm an educator with a passion for language and technology. 
+<!-- My name is Lucas Adelino, and I'm an educator with a passion for language and technology. 
 
 I first started college as an undergrad in Computer Science at the [Federal University of Pernambuco](https://www.ufpe.br/). I deeply enjoyed the program, but at the time, my love for writing led me to change majors Communication/Journalism. During my undergrad, I worked as a PR intern at several institutions in my hometown of [Recife](https://en.wikipedia.org/wiki/Recife). I graduated with a bachelor's in Journalism in 2017. 
 
@@ -17,4 +17,4 @@ During my master's, I took a few linguistics courses while pursuing an English L
 
 After graduating from Auburn in 2020, I worked for two semesters as a Portuguese language tutor at the [Academic Support Program for Student Athletes](https://aspsa.unc.edu/) at UNC-Chapel Hill. This experience allowed me to put in practice many of the concepts I had learned about in my adult education and linguistics courses. 
 
-When I'm not working, you can likely find me hanging out with my cat Bo, watching TV with my wife, gaming, or cooking.
+When I'm not working, you can likely find me hanging out with my cat Bo, watching TV with my wife, gaming, or cooking. -->
