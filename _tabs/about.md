@@ -9,9 +9,9 @@ icon: fas fa-info-circle
 My name is Lucas Adelino, a data engineer and computational linguist.
 
 ## What I'm up to now
-I am a data engineer at [NGI](https://github.com/NGI-SECOGE-SESAU), which oversees tech services within the [public health department](https://www2.recife.pe.gov.br/pagina/secretaria-de-saude) of the [City of Recife](https://www2.recife.pe.gov.br). 
+I'm a data engineer at [NGI](https://github.com/NGI-SECOGE-SESAU), which oversees business intelligence initiatives within the [public health department](https://www2.recife.pe.gov.br/pagina/secretaria-de-saude) of the [City of Recife](https://www2.recife.pe.gov.br). 
 
-At NGI, I build and maintain data pipelines. This typically involves working with stakeholders and data analysts to understand business needs, identifying and extracting data from various sources, building transformations with [dbt](https://www.getdbt.com/product/what-is-dbt), and orchestrating everything with [Airflow](https://airflow.apache.org/). My other responsibilities include maintaining NGI's databases, and maintaining an internal datahub--a website we use to document and share data with other teams at the City of Recife.
+At NGI, I build and maintain data pipelines. This typically involves working with stakeholders and data analysts to understand business needs, identifying and extracting data from various sources, building transformations with [dbt](https://www.getdbt.com/product/what-is-dbt), and orchestrating everything with [Airflow](https://airflow.apache.org/). My other responsibilities include maintaining NGI's databases and an internal datahub--a website we use to document and share data with other teams at the City of Recife.
 
 I was fortunate to join NGI shortly after its inception. Our teammates and I built our data infrastructure from the ground up, from choosing the tools for our data stack to installing and configuring them. This was an incredible opportunity, as it gave me a much deeper command of foundational data engineering tools than I might have gained otherwise.
 
