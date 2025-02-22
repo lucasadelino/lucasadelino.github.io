@@ -4,7 +4,7 @@ dynamic_title: true
 news: false
 # Index page
 ---
-# Hello! 👋🏽
+# Hello! 👋🏼
 I'm a data engineer at the [public health department](https://www2.recife.pe.gov.br/pagina/secretaria-de-saude) of the [City of Recife](https://www2.recife.pe.gov.br). I build and maintain
 data pipelines to help track key performance indicators of Recife's public healthcare system. 
 

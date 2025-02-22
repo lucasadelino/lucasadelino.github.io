@@ -4,7 +4,7 @@ layout: page
 icon: fas fa-info-circle
 ---
 
-## Nice to meet you! 👋🏽
+## Nice to meet you! 👋🏼
 
 My name is Lucas Adelino, a data engineer and computational linguist.
 
