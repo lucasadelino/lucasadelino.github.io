@@ -19,23 +19,21 @@
           {% if forloop.first %}
             <span>
               <a href="{{ '/' | relative_url }}">
-                {{ site.data.locales[lang].tabs.home | capitalize}}
+                {{ site.data.locales[lang].tabs.home | capitalize -}}
               </a>
             </span>
   
           {% elsif forloop.last %}
   
             {% if page.collection == 'tabs' %}
-              <span>{{ site.data.locales[lang].tabs[item] | default: page.title }}</span>
+              <span>{{ site.data.locales[lang].tabs[item] | default: page.title -}}</span>
             {% else %}
               <span>{{ page.title }}</span>
             {% endif %}
   
           {% elsif page.layout == 'post' %}
             <span>
-              <a href="{{ '/blog' | relative_url }}">
-                Blog
-              </a>
+              <a href="{{ '/blog' | relative_url }}">Blog</a>
             </span>
           {% endif %}
   
