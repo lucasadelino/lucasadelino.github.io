@@ -20,7 +20,7 @@ timezone: Brazil/East
 
 title: Lucas Adelino                          # the main title
 
-tagline: Data Engineer | Computational Linguist  # it will display as the sub-title
+tagline: Data Engineer, Computational Linguist  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Homepage of Lucas Adelino, a Data Engineer and Computational Linguist.
@@ -84,7 +84,7 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/lucas_avatar.jpeg
+avatar: assets/lucas_avatar.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
