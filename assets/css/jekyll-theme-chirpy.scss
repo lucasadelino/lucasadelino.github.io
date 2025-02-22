@@ -81,6 +81,12 @@ ul li.nav-item a.nav-link {
     width: 100%;
 }
 
+@media (max-width: 849px) {
+    #topbar-title {
+        width: 100%;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     #topbar {
         flex: 0 0 96%;
